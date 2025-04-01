@@ -15,7 +15,10 @@
   <!--
     - custom css link
   -->
-  <link rel="stylesheet" href="/assets/css/style.css">
+  <!-- <link rel="stylesheet" href="/assets/css/style.css"> -->
+     <!-- CSS with preload and cache busting -->
+  <link rel="preload" href="/assets/css/style.css" as="style">
+  <link rel="stylesheet" href="/assets/css/style.css?v=1.1">
 
   <!--
     - google font link
@@ -23,6 +26,16 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+
+  <!-- Fallback for CSS loading -->
+  <noscript>
+    <style>
+      /* Basic fallback styles if CSS fails to load */
+      body { font-family: sans-serif; line-height: 1.5; }
+    </style>
+  </noscript>
+
 </head>
 <!-- mjm
 k
