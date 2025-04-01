@@ -1,0 +1,1545 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Monu Portfolio</title>
+
+  <!--
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./assets/images/letter-m.png" type="image/x-icon">
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <script type="module" src="./assets/js/firebase.js"></script>
+<script type="module" src="./assets/js/contact-form.js"></script>
+  <script src="./assets/js/portfolio.js"></script>
+  <!--
+    - #MAIN
+  -->
+
+  <main>
+
+    <!--
+      - #SIDEBAR
+    -->
+
+    <aside class="sidebar" data-sidebar>
+      <div class="sidebar-info">
+        <!-- Glowing avatar frame -->
+        <figure class="avatar-box">
+          <!-- Glow Layers -->
+          <div class="avatar-glow gold-glow"></div>
+          <div class="avatar-glow silver-glow"></div>
+          
+          <!-- Profile Image -->
+          <img src="./assets/images/profile-pic (2).png" alt="Monu Yaduwanshi" width="80" class="avatar-img">
+          
+          <!-- Sparkle Particles -->
+          <div class="avatar-sparkle sparkle-1"></div>
+          <div class="avatar-sparkle sparkle-2"></div>
+          <div class="avatar-sparkle sparkle-3"></div>
+        </figure>
+    
+        <div class="info-content">
+          <h1 class="name" title="Monu Yaduwanshi">Monu Yaduwanshi</h1>
+          
+          <!-- Moved title here -->
+          <p class="title">Android App Developer</p>
+          
+          <!-- Sparkles remain here -->
+          <div class="sparkle s1"></div>
+          <div class="sparkle s2"></div>
+          <div class="sparkle s3"></div>
+        </div>
+    
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+          <ion-icon name="chevron-down"></ion-icon>
+          <div class="btn-glow"></div>
+        </button>
+      </div>
+    
+      <div class="sidebar-info_more">
+        <!-- Metallic separator -->
+        <div class="separator">
+          <div class="metallic-line"></div>
+        </div>
+    
+
+
+        <ul class="contacts-list">
+          <!-- Email -->
+          <li class="contact-item">
+            <div class="icon-box metallic-icon">
+              <div class="icon-container">
+                <img src="./assets/images/email.png" alt="Email" class="custom-icon">
+              </div>
+              <div class="icon-glow"></div>
+              <div class="contact-line top-line"></div>
+              <div class="contact-line bottom-line"></div>
+            </div>
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+              <a href="mailto:monuyaduvanshi2003@gmail.com" class="contact-link">monuyaduvanshi2003@gmail.com</a>
+            </div>
+          </li>
+        
+          <!-- Phone -->
+          <li class="contact-item">
+            <div class="icon-box metallic-icon">
+              <div class="icon-container">
+                <img src="./assets/images/smartphone.png" alt="Phone" class="custom-icon">
+              </div>
+              <div class="icon-glow"></div>
+              <div class="contact-line top-line"></div>
+              <div class="contact-line bottom-line"></div>
+            </div>
+            <div class="contact-info">
+              <p class="contact-title">Phone</p>
+              <a href="tel:+917828454802" class="contact-link">+91 7828454802</a>
+            </div>
+          </li>
+        
+          <!-- Birthday -->
+          <li class="contact-item">
+            <div class="icon-box metallic-icon">
+              <div class="icon-container">
+                <img src="./assets/images/calendar.png" alt="Birthday" class="custom-icon">
+              </div>
+              <div class="icon-glow"></div>
+              <div class="contact-line top-line"></div>
+              <div class="contact-line bottom-line"></div>
+            </div>
+            <div class="contact-info">
+              <p class="contact-title">Birthday</p>
+              <time datetime="2003-12-17" class="contact-link">December 17, 2003</time>
+            </div>
+          </li>
+        
+          <!-- Location -->
+          <li class="contact-item">
+            <div class="icon-box metallic-icon">
+              <div class="icon-container">
+                <img src="./assets/images/location.png" alt="Location" class="custom-icon">
+              </div>
+              <div class="icon-glow"></div>
+              <div class="contact-line top-line"></div>
+              <div class="contact-line bottom-line"></div>
+            </div>
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
+              <address class="contact-link">C-64 Bharati Niketan, Bhopal, India</address>
+            </div>
+          </li>
+        </ul>
+
+
+
+    
+        <!-- Metallic separator -->
+        <div class="separator">
+          <div class="metallic-line"></div>
+        </div>
+    
+        <!-- Social links with hover effects -->
+        <ul class="social-list">
+          <li class="social-item">
+            <a href="https://github.com/Monu-Yaduwanshi" class="social-link" target="_blank">
+              <div class="social-icon-container">
+                <img src="./assets/images/facebook.png" alt="Facebook" class="social-icon">
+                <div class="social-glow"></div>
+              </div>
+              <span class="social-tooltip">Facebook</span>
+            </a>
+          </li>
+        
+          <li class="social-item">
+            <a href="https://github.com/Monu-Yaduwanshi" class="social-link" target="_blank">
+              <div class="social-icon-container">
+                <img src="./assets/images/github.png" alt="GitHub" class="social-icon">
+                <div class="social-glow"></div>
+              </div>
+              <span class="social-tooltip">GitHub</span>
+            </a>
+          </li>
+        
+          <li class="social-item">
+            <a href="https://www.linkedin.com/in/monu-yaduwanshi-63a3b72a4/" class="social-link" target="_blank">
+              <div class="social-icon-container">
+                <img src="./assets/images/linkedin.png" alt="LinkedIn" class="social-icon">
+                <div class="social-glow"></div>
+              </div>
+              <span class="social-tooltip">LinkedIn</span>
+            </a>
+          </li>
+        
+          <li class="social-item">
+            <a href="https://github.com/Monu-Yaduwanshi" class="social-link" target="_blank">
+              <div class="social-icon-container">
+                <img src="./assets/images/youtube.png" alt="YouTube" class="social-icon">
+                <div class="social-glow"></div>
+              </div>
+              <span class="social-tooltip">YouTube</span>
+            </a>
+          </li>
+        
+          <li class="social-item">
+            <a href="https://www.x.com/in/" class="social-link" target="_blank">
+              <div class="social-icon-container">
+                <img src="./assets/images/twitter-sign.png" alt="Twitter" class="social-icon">
+                <div class="social-glow"></div>
+              </div>
+              <span class="social-tooltip">Twitter</span>
+            </a>
+          </li>
+        
+          <li class="social-item">
+            <a href="https://www.instagram.com/in/" class="social-link" target="_blank">
+              <div class="social-icon-container">
+                <img src="./assets/images/instagram.png" alt="Instagram" class="social-icon">
+                <div class="social-glow"></div>
+              </div>
+              <span class="social-tooltip">Instagram</span>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </aside>
+
+
+
+
+
+    <!--
+      - #main-content
+    -->
+
+    <div class="main-content">
+
+      <!--
+        - #NAVBAR
+      -->
+
+      <nav class="navbar">
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <button class="navbar-link  active" data-nav-link>About</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Resume</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Portfolio</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Skills</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Contact</button>
+          </li>
+
+        </ul>
+
+      </nav>
+
+
+
+
+
+      <!--
+        - #ABOUT
+      -->
+
+      <article class="about  active" data-page="about">
+
+        <header>
+          <h2 class="h2 article-title" id="resume-title">About Me</h2>
+        </header>
+
+        <section class="about-text">
+          <p>
+            I'm Creative Frontend developer and a Android App developer from Bhopal, India.
+            I enjoy
+            turning complex problems into simple, beautiful  designs and love to solve complex problems.
+          </p>
+
+          <p>
+            I'm a versatile Software Engineer and Android Developer, with expertise in Kotlin, Jetpack Compose, Java, Python, and Firebase.
+             My passion lies in transforming complex problems into elegant, user-centric solutions through clean code and intuitive design. 
+             With hands-on experience in developing encryption systems, data structures, and interactive applications,
+              I specialize in building robust mobile and web solutions that balance functionality with aesthetic appeal.
+          </p>
+          <p>
+            My interest is to build website and apps so that it is functional and user-friendly but at the same time attractive.
+            Moreover, I
+            add personal touch to your product and make sure that is eye-catching and easy to use. My aim is to bring
+            across your
+            message and identity in the most creative way. I created lots of apps that solve real time problems.
+          </p>
+        </section>
+
+
+        <!--
+          - service
+        -->
+
+        <section class="service">
+
+          <h3 class="h3 service-title">What i'm doing</h3>
+
+          <ul class="service-list">
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/data-engineer.png
+                " alt="design icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Machine Learning Engineer</h4>
+
+                <p class="service-item-text">
+                  "The most modern and skilled in machine learning design for building and deploying AI models at professional level".
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-dev.svg" alt="Web development icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Frontend Web development</h4>
+
+                <p class="service-item-text">
+                 "" High-quality development of sites at the professional level".
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-app.svg" alt="mobile app icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Mobile apps</h4>
+
+                <p class="service-item-text">
+                  "Professional development of applications for Android".
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/program.png" alt="camera icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Competitive Programming</h4>
+
+                <p class="service-item-text">
+                  I love solving real-world and daily coding challenges on online platforms .
+                </p>
+              </div>
+
+            </li>
+
+          </ul>
+
+        </section>
+
+
+        <!--
+          - testimonials
+        -->
+
+        <section class="testimonials">
+
+          <h3 class="h3 testimonials-title">My Motivation factors</h3>
+
+          <ul class="testimonials-list has-scrollbar">
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/avatar-1.png" alt="John Jonson" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>John Johnson</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    "First, solve the problem.<br> 
+                    Then, write the code."
+                  </p>
+                  <p class="testimonial-role">Software Engineer & Problem-Solving Advocate • Early IBM developer</p>
+                </div>
+
+              </div>
+            </li>
+
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/avatar-2.png" alt="Ada Lovelace" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Ada Lovelace</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    "The analytical engine weaves algebraic patterns, just as the Jacquard loom weaves flowers and leaves."
+                  </p>
+                  <p class="testimonial-role">First Computer Programmer • Mathematician • Visionary</p>
+                </div>
+
+              </div>
+            </li>
+
+
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/man.png" alt="Martin Fowler" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Martin Fowler</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    "Any fool can write code that a computer can understand. Good programmers write code that humans can understand."
+                  </p>
+                  <p class="testimonial-role">Chief Scientist at ThoughtWorks • Author of "Refactoring"</p>
+                </div>
+
+              </div>
+            </li>
+
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/avatar-2.png" alt="Margaret Hamilton" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Margaret Hamilton</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    "There was no choice but to be pioneers; no time to be beginners."
+                  </p>
+                  <p class="testimonial-role">Lead Software Engineer for Apollo 11 • Coined "Software Engineering"</p>
+                </div>
+
+              </div>
+            </li>
+
+
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/head.png" alt="Chris Pine" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Chris Pine</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    "Programming isn't about what you know; it's about what you can figure out."
+                  </p>
+                  <p class="testimonial-role">Author of "Learn to Program" • Ruby programming advocate</p>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/avatar-4.png" alt="Thomas Fuchs" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Thomas Fuchs</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    "The best error message is the one that never shows up."
+                  </p>
+                  <p class="testimonial-role">JavaScript expert, former Rails core team • Creator of script.aculo.us</p>
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </section>
+
+
+        <!--
+          - testimonials modal
+        -->
+
+        <div class="modal-container" data-modal-container>
+
+          <div class="overlay" data-overlay></div>
+
+          <section class="testimonials-modal">
+
+            <button class="modal-close-btn" data-modal-close-btn>
+              <ion-icon name="close-outline"></ion-icon>
+            </button>
+
+            <div class="modal-img-wrapper">
+              <figure class="modal-avatar-box">
+                <img src="" alt="Daniel lewis" width="80" data-modal-img>
+              </figure>
+
+              <img src="./assets/images/icon-quote.svg" alt="quote icon">
+            </div>
+
+            <div class="modal-content">
+
+              <h4 class="h3 modal-title" data-modal-title></h4>
+
+              <time datetime=""></time>
+
+              <div data-modal-text>
+                <p>
+              
+                </p>
+              </div>
+
+            </div>
+
+          </section>
+
+        </div>
+
+
+        <!--
+          - clients
+        -->
+
+
+
+        <section class="clients">
+
+          <h3 class="h3 clients-title">My Projects domains/fields</h3>
+
+          <ul class="clients-list has-scrollbar">
+
+            <li class="clients-item">
+              <a href="https://github.com/Monu-Yaduwanshi">
+                <img src="./assets/images/tourism.png" alt="Web Development" class="client-logo">
+                <div class="domain-tooltip">
+                  <span class="domain-name">Web Development</span>
+                  <span class="related-field">Booking Systems</span>
+                </div>
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="https://github.com/Monu-Yaduwanshi">
+                <img src="./assets/images/food-processing.png" alt="Mobile Development" class="client-logo">
+                <div class="domain-tooltip">
+                  <span class="domain-name">Mobile Development</span>
+                  <span class="related-field">AgriTech Solutions</span>
+                </div>
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="https://github.com/Monu-Yaduwanshi">
+                <img src="./assets/images/technology.png" alt="Artificial Intelligence" class="client-logo">
+                <div class="domain-tooltip">
+                  <span class="domain-name">AI/ML</span>
+                  <span class="related-field">Insurance Tech (InsurTech)/Climate Tech</span>
+                </div>
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="https://github.com/Monu-Yaduwanshi">
+                <img src="./assets/images/graduation-cap.png" alt="Desktop Applications" class="client-logo">
+                <div class="domain-tooltip">
+                  <span class="domain-name">Desktop Software</span>
+                  <span class="related-field">Educational Systems</span>
+                </div>
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="https://github.com/Monu-Yaduwanshi">
+                <img src="./assets/images/chatbot.png" alt="Conversational AI" class="client-logo">
+                <div class="domain-tooltip">
+                  <span class="domain-name">Conversational AI</span>
+                  <span class="related-field">Customer Service Automation</span>
+                </div>
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="https://github.com/Monu-Yaduwanshi">
+                <img src="./assets/images/tech.png" alt="Full-Stack Development" class="client-logo">
+                <div class="domain-tooltip">
+                  <span class="domain-name">Full-Stack</span>
+                  <span class="related-field">Business Process Automation</span>
+                </div>
+              </a>
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+      <article class="resume" data-page="resume">
+
+       
+
+          <header class="resume-header">
+            <div class="title-container">
+              <!-- Animated 3D Text -->
+              <h2 class="h2 article-title" id="resume-title">Resume</h2>
+              
+              <!-- Enhanced 3D Download Button -->
+              <div class="button-wrapper">
+                <a href="./assets/Resume/Monu_Yaduwanshi_Resume_Draft.pdf" class="download-btn" download>
+                  <span class="btn-content">
+
+                    <div class="custom-icon-container">
+                      <img src="/assets/images/download.png" alt="Download" class="custom-download-icon">
+                      <div class="icon-hover-effect"></div>
+                    </div>
+
+                    <span class="btn-text">Download Resume</span>
+                  </span>
+                  <span class="btn-shine"></span>
+                </a>
+              </div>
+            </div>
+    
+    
+      <!-- Education Section -->
+<section class="timeline">
+  <div class="title-wrapper">
+    <div class="icon-box">
+      <div class="custom-icon-wrapper">
+        <img src="./assets/images/education.png" alt="Education" class="custom-icon">
+        <div class="icon-hover-circle"></div>
+        <div class="icon-hover-shine"></div>
+      </div>
+    </div>
+    <h3 class="h3">Education</h3>
+  </div>
+
+  <ol class="timeline-list">
+    <li class="timeline-item">
+      <div class="timeline-icon">
+        <img src="/assets/images/education.png" alt="Degree" class="timeline-custom-icon">
+        <div class="timeline-icon-glow"></div>
+      </div>
+      <div class="timeline-content">
+        <h4 class="h4 timeline-item-title">B.Tech - Computer Science & Engineering</h4>
+        <span>2022 — 2026</span>
+        <p class="timeline-text">
+          Sagar Institute of Science & Technology, Bhopal • CGPA: 7.20
+        </p>
+        <div class="timeline-hover-line"></div>
+      </div>
+    </li>
+
+    <li class="timeline-item">
+      <div class="timeline-icon">
+        <img src="./assets/images/education.png" alt="School" class="timeline-custom-icon">
+        <div class="timeline-icon-glow"></div>
+      </div>
+      <div class="timeline-content">
+        <h4 class="h4 timeline-item-title">Senior Secondary (12th CBSE)</h4>
+        <span>2021 — 2022</span>
+        <p class="timeline-text">
+          Holy Faith Higher Secondary School, Harda • Percentage: 72%
+        </p>
+        <div class="timeline-hover-line"></div>
+      </div>
+    </li>
+
+    <li class="timeline-item">
+      <div class="timeline-icon">
+        <img src="./assets/images/education.png" alt="School" class="timeline-custom-icon">
+        <div class="timeline-icon-glow"></div>
+      </div>
+      <div class="timeline-content">
+        <h4 class="h4 timeline-item-title">Higher Secondary (10th CBSE)</h4>
+        <span>2019 — 2020</span>
+        <p class="timeline-text">
+          Holy Faith Higher Secondary School, Harda • Percentage: 70%
+        </p>
+        <div class="timeline-hover-line"></div>
+      </div>
+    </li>
+  </ol>
+</section>
+
+<!-- Experience Section -->
+<section class="timeline">
+  <div class="title-wrapper">
+    <div class="icon-box">
+      <div class="custom-icon-wrapper">
+        <img src="/assets/images/reputation.png" alt="Experience" class="custom-icon">
+        <div class="icon-hover-circle"></div>
+        <div class="icon-hover-shine"></div>
+      </div>
+    </div>
+    <h3 class="h3">Experience</h3>
+  </div>
+
+  <ol class="timeline-list">
+    <li class="timeline-item">
+      <div class="timeline-icon">
+        <img src="./assets/images/reputation.png" alt="Internship" class="timeline-custom-icon">
+        <div class="timeline-icon-glow"></div>
+      </div>
+      <div class="timeline-content">
+        <h4 class="h4 timeline-item-title">Full Stack App Developer Intern</h4>
+        <span>Dec 2024 — Mar 2025</span>
+        <p class="timeline-text">
+          Developed Android applications with Firebase integration, implemented real-time databases, authentication, and analytics.
+        </p>
+        <div class="timeline-hover-line"></div>
+      </div>
+    </li>
+  </ol>
+</section>
+
+<!-- Skills Section -->
+<section class="skills-section">
+  <div class="title-wrapper">
+    <div class="icon-box">
+      <div class="custom-icon-wrapper">
+        <img src="/assets/images/skill.png" alt="Skills" class="custom-icon">
+        <div class="icon-hover-circle"></div>
+        <div class="icon-hover-shine"></div>
+      </div>
+    </div>
+    <h3 class="h3">My Skills</h3>
+  </div>
+
+  <ul class="skills-list content-card">
+    <li class="skills-item">
+      <div class="title-wrapper">
+        <div class="skill-icon">
+          <img src="./assets/images/skill.png" alt="Android" class="skill-custom-icon">
+        </div>
+        <h5 class="h5">Android Development (Kotlin/Jetpack Compose)</h5>
+        <data value="90">90%</data>
+      </div>
+      <div class="skill-progress-bg">
+        <div class="skill-progress-fill" style="width: 90%;"></div>
+      </div>
+    </li>
+
+    <li class="skills-item">
+      <div class="title-wrapper">
+        <div class="skill-icon">
+          <img src="./assets/images/skill.png" alt="Java" class="skill-custom-icon">
+        </div>
+        <h5 class="h5">Java/Python Programming</h5>
+        <data value="85">85%</data>
+      </div>
+      <div class="skill-progress-bg">
+        <div class="skill-progress-fill" style="width: 85%;"></div>
+      </div>
+    </li>
+
+    <li class="skills-item">
+      <div class="title-wrapper">
+        <div class="skill-icon">
+          <img src="./assets/images/skill.png" alt="Database" class="skill-custom-icon">
+        </div>
+        <h5 class="h5">Database (Firebase & MySQL)</h5>
+        <data value="80">80%</data>
+      </div>
+      <div class="skill-progress-bg">
+        <div class="skill-progress-fill" style="width: 80%;"></div>
+      </div>
+    </li>
+
+    <li class="skills-item">
+      <div class="title-wrapper">
+        <div class="skill-icon">
+          <img src="./assets/images/skill.png" alt="Web" class="skill-custom-icon">
+        </div>
+        <h5 class="h5">Frontend web development (HTML,CSS & Javascript)</h5>
+        <data value="75">75%</data>
+      </div>
+      <div class="skill-progress-bg">
+        <div class="skill-progress-fill" style="width: 75%;"></div>
+      </div>
+    </li>
+
+    <li class="skills-item">
+      <div class="title-wrapper">
+        <div class="skill-icon">
+          <img src="./assets/images/skill.png" alt="AI" class="skill-custom-icon">
+        </div>
+        <h5 class="h5">AI/ML (TensorFlow Lite & Python library)</h5>
+        <data value="70">70%</data>
+      </div>
+      <div class="skill-progress-bg">
+        <div class="skill-progress-fill" style="width: 70%;"></div>
+      </div>
+    </li>
+  </ul>
+</section>
+
+<!-- Certifications Section -->
+<section class="timeline">
+  <div class="title-wrapper">
+    <div class="icon-box">
+      <div class="custom-icon-wrapper">
+        <img src="/assets/images/medal.png" alt="Certifications" class="custom-icon">
+        <div class="icon-hover-circle"></div>
+        <div class="icon-hover-shine"></div>
+      </div>
+    </div>
+    <h3 class="h3">Certifications</h3>
+  </div>
+
+  <ol class="timeline-list">
+    <li class="timeline-item">
+      <div class="timeline-icon">
+        <img src="./assets/images/medal.png" alt="Python" class="timeline-custom-icon">
+        <div class="timeline-icon-glow"></div>
+      </div>
+      <div class="timeline-content">
+        <div class="certificate-header">
+          <h4 class="h4 timeline-item-title">Python & Django REST API Bootcamp</h4>
+          <a href="./assets/Certificates/Monu_Yaduwanshi_Python & Django.pdf" class="download-certificate" download>
+            <img src="/assets/images/download.png" alt="Download" class="download-custom-icon">
+          </a>
+        </div>
+        <span>Udemy • 2025</span>
+        <p class="timeline-text">Completed 40-hour comprehensive course on building RESTful APIs with Django</p>
+        <div class="timeline-hover-line"></div>
+      </div>
+    </li>
+
+    <li class="timeline-item">
+      <div class="timeline-icon">
+        <img src="./assets/images/medal.png" alt="Android" class="timeline-custom-icon">
+        <div class="timeline-icon-glow"></div>
+      </div>
+      <div class="timeline-content">
+        <div class="certificate-header">
+          <h4 class="h4 timeline-item-title">Android App Development</h4>
+          <a href="./assets/Certificates/Monu Yaduwanshi_Android & Firebase.pdf" class="download-certificate" download>
+            <img src="./assets/images/download.png" alt="Download" class="download-custom-icon">
+          </a>
+        </div>
+        <span>Udemy • 2025</span>
+        <p class="timeline-text">Mastered Kotlin, Jetpack Compose and Firebase integration</p>
+        <div class="timeline-hover-line"></div>
+      </div>
+    </li>
+
+    <li class="timeline-item">
+      <div class="timeline-icon">
+        <img src="./assets/images/medal.png" alt="Java" class="timeline-custom-icon">
+        <div class="timeline-icon-glow"></div>
+      </div>
+      <div class="timeline-content">
+        <div class="certificate-header">
+          <h4 class="h4 timeline-item-title">Advanced Java Course</h4>
+          <a href="./assets/Certificates/Monu_Yaduwanshi java_intellipaat.pdf" class="download-certificate" download>
+            <img src="./assets/images/download.png" alt="Download" class="download-custom-icon">
+          </a>
+        </div>
+        <span>Intellipath Academy • 2025</span>
+        <p class="timeline-text">Covered multithreading, collections framework and JDBC</p>
+        <div class="timeline-hover-line"></div>
+      </div>
+    </li>
+
+    <li class="timeline-item">
+      <div class="timeline-icon">
+        <img src="./assets/images/medal.png" alt="Flutter" class="timeline-custom-icon">
+        <div class="timeline-icon-glow"></div>
+      </div>
+      <div class="timeline-content">
+        <div class="certificate-header">
+          <h4 class="h4 timeline-item-title">Flutter & Firebase course</h4>
+          <a href="./assets/Certificates/Monu_Yaduwanshi_Flutter & Firebase.pdf" class="download-certificate" download>
+            <img src="./assets/images/download.png" alt="Download" class="download-custom-icon">
+          </a>
+        </div>
+        <span>Udemy • 2024</span>
+        <p class="timeline-text">Hands-on labs for flutter and firebase for cross platform mobile applications</p>
+        <div class="timeline-hover-line"></div>
+      </div>
+    </li>
+
+    <li class="timeline-item">
+      <div class="timeline-icon">
+        <img src="./assets/images/medal.png" alt="OOP" class="timeline-custom-icon">
+        <div class="timeline-icon-glow"></div>
+      </div>
+      <div class="timeline-content">
+        <div class="certificate-header">
+          <h4 class="h4 timeline-item-title">Java Object oriented programming Certificate</h4>
+          <a href="./assets/Certificates/Monu_Yaduwanshi_Java_OOP.pdf" class="download-certificate" download>
+            <img src="./assets/images/download.png" alt="Download" class="download-custom-icon">
+          </a>
+        </div>
+        <span>Udemy • 2024</span>
+        <p class="timeline-text">Certified in java object oriented fundamentals for real life projects developement</p>
+        <div class="timeline-hover-line"></div>
+      </div>
+    </li>
+
+    <li class="timeline-item">
+      <div class="timeline-icon">
+        <img src="./assets/images/medal.png" alt="Hackathon" class="timeline-custom-icon">
+        <div class="timeline-icon-glow"></div>
+      </div>
+      <div class="timeline-content">
+        <div class="certificate-header">
+          <h4 class="h4 timeline-item-title">participate in National level hackathons Nirmaan</h4>
+          <a href="./assets/Certificates/Monu Yaduvanshi_Nirmaan -certificates.pdf" class="download-certificate" download>
+            <img src="./assets/images/download.png" alt="Download" class="download-custom-icon">
+          </a>
+        </div>
+        <span>Nirmaan National Expo • 2024</span>
+        <p class="timeline-text">Nirmaan is a national level tech expo which happpen every year in Bhopal</p>
+        <div class="timeline-hover-line"></div>
+      </div>
+    </li>
+  </ol>
+</section>
+        
+      
+      </article>
+
+
+        
+
+      <!--
+        - #PORTFOLIO
+      -->
+
+      
+        <article class="portfolio" data-page="portfolio">
+         
+            <header>
+               <h2 class="h2 article-title" id="resume-title">Portfolio</h2>
+            </header>
+          
+            <section class="projects">
+          
+              <!-- Filter Buttons -->
+              <ul class="filter-list">
+                <li class="filter-item">
+                  <button class="active" data-filter-btn>All</button>
+                </li>
+                <li class="filter-item">
+                  <button data-filter-btn>Android Development</button>
+                </li>
+                <li class="filter-item">
+                  <button data-filter-btn>Web Development</button>
+                </li>
+                <li class="filter-item">
+                  <button data-filter-btn>AI/ML</button>
+                </li>
+              </ul>
+          
+              <!-- Mobile Dropdown Filter -->
+              <div class="filter-select-box">
+                <button class="filter-select" data-select>
+                  <div class="select-value" data-select-value>Select category</div>
+                  <div class="select-icon">
+                    <ion-icon name="chevron-down"></ion-icon>
+                  </div>
+                </button>
+                <ul class="select-list">
+                  <li class="select-item">
+                    <button data-select-item>All</button>
+                  </li>
+                  <li class="select-item">
+                    <button data-select-item>Android Development</button>
+                  </li>
+                  <li class="select-item">
+                    <button data-select-item>Web Development</button>
+                  </li>
+                  <li class="select-item">
+                    <button data-select-item>AI/ML</button>
+                  </li>
+                </ul>
+              </div>
+          
+              <!-- Projects Grid -->
+              <ul class="project-list">
+  
+                <!-- Contract Farming Android App -->
+                <li class="project-item active" data-filter-item data-category="android development">
+                  <a href="https://github.com/Monu-Yaduwanshi/Android-Development-Contract-Farming" target="_blank" rel="noopener noreferrer">
+                    <figure class="project-img">
+                      <div class="project-img-container">
+                        <img src="./assets/images/CropBazzar.png" alt="Contract Farming App" loading="lazy" class="project-main-img">
+                        <!-- <img src="./assets/images/letter-m.png" alt="Developer" class="project-hover-img"> -->
+                      </div>
+                      <div class="project-item-icon-box">
+                        <img src="./assets/images/githubblack.png" alt="GitHub" class="github-custom-icon">
+                        <div class="icon-hover-glow"></div>
+                      </div>
+                    </figure>
+                    <h3 class="project-title">Contract Farming App</h3>
+                    <p class="project-category">Android Development</p>
+                    <div class="project-hover-content">
+                      <p>• Kotlin <br>• Jetpack Compose <br> • Firebase</p>
+                    </div>
+                    <div class="project-hover-overlay"></div>
+                    <div class="project-hover-border"></div>
+                  </a>
+                </li>
+              
+                <!-- Climate Impact Predictor -->
+                <li class="project-item active" data-filter-item data-category="ai/ml">
+                  <a href="https://github.com/Monu-Yaduwanshi/Climate_Impact_Financial_Predictor" target="_blank" rel="noopener noreferrer">
+                    <figure class="project-img">
+                      <div class="project-img-container">
+                        <img src="./assets/images/FinancePredictor.png" alt="Climate Impact Predictor" loading="lazy" class="project-main-img">
+                        <!-- <img src="./assets/images/letter-m.png" alt="Developer" class="project-hover-img"> -->
+                      </div>
+                      <div class="project-item-icon-box">
+                        <img src="./assets/images/github_PNG80.png" alt="GitHub" class="github-custom-icon">
+                        <div class="icon-hover-glow"></div>
+                      </div>
+                    </figure>
+                    <h3 class="project-title">Climate Impact Predictor</h3>
+                    <p class="project-category">AI/ML</p>
+                    <div class="project-hover-content">
+                      <p>• Python <br>• TensorFlow Lite <br>• Kotlin</p>
+                    </div>
+                    <div class="project-hover-overlay"></div>
+                    <div class="project-hover-border"></div>
+                  </a>
+                </li>
+              
+                <!-- Tour & Travel Management -->
+                <li class="project-item active" data-filter-item data-category="web development">
+                  <a href="https://github.com/Monu-Yaduwanshi/Tour-and-travel-frontend-Website" target="_blank" rel="noopener noreferrer">
+                    <figure class="project-img">
+                      <div class="project-img-container">
+                        <img src="./assets/images/T&T.png" alt="Tour & Travel System" loading="lazy" class="project-main-img">
+                        <!-- <img src="./assets/images/letter-m.png" alt="Developer" class="project-hover-img"> -->
+                      </div>
+                      <div class="project-item-icon-box">
+                        <img src="./assets/images/githubblack.png" alt="GitHub" class="github-custom-icon">
+                        <div class="icon-hover-glow"></div>
+                      </div>
+                    </figure>
+                    <h3 class="project-title">Tour & Travel System</h3>
+                    <p class="project-category">Web Development</p>
+                    <div class="project-hover-content">
+                      <p>• HTML <br>• CSS <br>• JavaScript</p>
+                    </div>
+                    <div class="project-hover-overlay"></div>
+                    <div class="project-hover-border"></div>
+                  </a>
+                </li>
+              
+                <!-- Library Management System -->
+                <li class="project-item active" data-filter-item data-category="applications">
+                  <a href="https://github.com/Monu-Yaduwanshi/Java-Library-Management-System" target="_blank" rel="noopener noreferrer">
+                    <figure class="project-img">
+                      <div class="project-img-container">
+                        <img src="./assets/images/LMS2.png" alt="Library Management" loading="lazy" class="project-main-img">
+                        <!-- <img src="./assets/images/letter-m.png" alt="Developer" class="project-hover-img"> -->
+                      </div>
+                      <div class="project-item-icon-box">
+                        <img src="./assets/images/github_PNG80.png" alt="GitHub" class="github-custom-icon">
+                        <div class="icon-hover-glow"></div>
+                      </div>
+                    </figure>
+                    <h3 class="project-title">Library Management</h3>
+                    <p class="project-category">Applications</p>
+                    <div class="project-hover-content">
+                      <p>• Java <br>• Swing <br>• MySQL <br>• JDBC <br>• Hibernate</p>
+                    </div>
+                    <div class="project-hover-overlay"></div>
+                    <div class="project-hover-border"></div>
+                  </a>
+                </li>
+              
+                <!-- Personal Portfolio Website -->
+                <li class="project-item active" data-filter-item data-category="web development">
+                  <a href="https://github.com/Monu-Yaduwanshi/My_Personal_Portfolio" target="_blank" rel="noopener noreferrer">
+                    <figure class="project-img">
+                      <div class="project-img-container">
+                        <img src="./assets/images/PortfolioMy.png" alt="Portfolio Website" loading="lazy" class="project-main-img">
+                      </div>
+                      <div class="project-item-icon-box">
+                        <img src="./assets/images/githubblack.png" alt="GitHub" class="github-custom-icon">
+                        <div class="icon-hover-glow"></div>
+                      </div>
+                    </figure>
+                    <h3 class="project-title">Portfolio Website</h3>
+                    <p class="project-category">Web Development</p>
+                    <div class="project-hover-content">
+                      <p>• HTML <br>• CSS <br>• JavaScript</p>
+                    </div>
+                    <div class="project-hover-overlay"></div>
+                    <div class="project-hover-border"></div>
+                  </a>
+                </li>
+              </ul>
+            </section>
+          </article>
+
+
+
+
+         <article class="skills" data-page="skills">
+          <section class="skills-section">
+            <header>
+              <h2 class="h2 article-title" id="resume-title">Technical Skills</h2>
+            </header>
+          
+            <!-- Android Development -->
+            <div class="skill-category">
+              <h3 class="category-title">Android Development</h3>
+              <div class="skills-grid platforms-grid">
+                <div class="platform-card">
+                  <div class="platform-icon">
+                    <img src="./assets/images/kotlin.png" alt="Kotlin" loading="lazy">
+                  </div>
+                  <h4>Kotlin</h4>
+                </div>
+
+                <div class="platform-card">
+                  <div class="platform-icon">
+                    <img src="./assets/images/jetpack-compose-icon.png" alt="Jetpack Compose" loading="lazy">
+                  </div>
+                  <h4>Jetpack Compose</h4>
+                </div>
+
+                
+                <div class="platform-card">
+                  <div class="platform-icon">
+                    <img src="./assets/images/xml.png" alt="XML" loading="lazy">
+                  </div>
+                  <h4>XML</h4>
+                </div>
+                
+               
+             <!-- Add more Android skills -->
+            </div>
+          
+            <!-- Web Development -->
+            <div class="skill-category">
+              <h3 class="category-title">Web Development</h3>
+              <div class="skills-grid platforms-grid">
+                <div class="platform-card">
+                  <div class="platform-icon">
+                    <img src="./assets/images/html.png" alt="HTML" loading="lazy">
+                  </div>
+                  <h4>HTML</h4>
+                </div>
+
+                <div class="platform-card">
+                  <div class="platform-icon">
+                    <img src="./assets/images/css-alt.png" alt="CSS" loading="lazy">
+                  </div>
+                  <h4>CSS</h4>
+                </div>
+                
+                <div class="platform-card">
+                  <div class="platform-icon">
+                    <img src="./assets/images/javascript.png" alt="Javascript" loading="lazy">
+                  </div>
+                  <h4>Javascript</h4>
+                </div>
+
+              
+             <!-- Add more Web Development skills -->
+            </div>
+          
+            <!-- AI/ML -->
+            <div class="skill-category">
+              <h3 class="category-title">AI/ML Tools & Library</h3>
+              <div class="skills-grid platforms-grid">
+                <div class="platform-card">
+                  <div class="platform-icon">
+                    <img src="./assets/images/python.png" alt="Python" loading="lazy">
+                  </div>
+                  <h4>Python</h4>
+                </div>
+
+                
+                <div class="platform-card">
+                  <div class="platform-icon">
+                    <img src="./assets/images/pytorch-logo.png" alt="Pytorch" loading="lazy">
+                  </div>
+                  <h4>Pytorch</h4>
+                </div>
+                <div class="platform-card">
+                  <div class="platform-icon">
+                    <img src="./assets/images/numpy-logo-1.png" alt="Numpy" loading="lazy">
+                  </div>
+                  <h4>Numpy</h4>
+                </div>
+                <div class="platform-card">
+                  <div class="platform-icon">
+                    <img src="./assets/images/pandas-logo-2.png" alt="Pandas" loading="lazy">
+                  </div>
+                  <h4>Pandas</h4>
+                </div>
+                <div class="platform-card">
+                  <div class="platform-icon">
+                    <img src="./assets/images/matplotlib-logo-1-500x500.jpg" alt="MatPlot" loading="lazy">
+                  </div>
+                  <h4>MatPlot</h4>
+                </div>
+                <div class="platform-card">
+                  <div class="platform-icon">
+                    <img src="./assets/images/sk-learn-logo-1.png" alt="Sk-learn" loading="lazy">
+                  </div>
+                  <h4>Sk-learn</h4>
+                </div>
+
+             <!-- Add more AI/ML Tools & Library skills -->
+
+            </div>
+          
+            <!-- UI/UX -->
+            <div class="skill-category">
+              <h3 class="category-title">UI/UX skills</h3>
+              <div class="skills-grid platforms-grid">
+                <div class="platform-card">
+                  <div class="platform-icon">
+                    <img src="./assets/images/figma.png" alt="Figma" loading="lazy">
+                  </div>
+                  <h4>Figma</h4>
+                </div>
+                <div class="platform-card">
+                  <div class="platform-icon">
+                    <img src="./assets/images/visual paradigmc.png" alt="Visual Paradigm" loading="lazy">
+                  </div>
+                  <h4>Visual Paradigm</h4>
+                </div>
+                
+              </div>
+            </div>
+                <!-- Add more UI/UX skills -->
+ 
+          
+            <!-- Backend -->
+            <div class="skill-category">
+              <h3 class="category-title">Backend Development</h3>
+              <div class="skills-grid platforms-grid">
+                <div class="platform-card">
+                  <div class="platform-icon">
+                    <img src="./assets/images/K9Jf-N8RWHDw2IZSY_vjSfIVm2X6jGN9.png" alt="Spring" loading="lazy">
+                  </div>
+                  <h4>Spring</h4>
+                </div>
+                <div class="platform-card">
+                  <div class="platform-icon">
+                    <img src="./assets/images/spring-boot.png" alt="Spring Boot" loading="lazy">
+                  </div>
+                  <h4>Spring Boot</h4>
+                </div>
+                
+                <div class="platform-card">
+                  <div class="platform-icon">
+                    <img src="./assets/images/rest.png" alt="Rest API" loading="lazy">
+                  </div>
+                  <h4>Rest API</h4>
+                </div>
+                <div class="platform-card">
+                  <div class="platform-icon">
+                    <img src="./assets/images/tensorflow-logo-1.png" alt="TensorFlow" loading="lazy">
+                  </div>
+                  <h4>TensorFlow</h4>
+                </div>
+                <div class="platform-card">
+                  <div class="platform-icon">
+                    <img src="./assets/images/heroku.png" alt="Heroku" loading="lazy">
+                  </div>
+                  <h4>Heroku</h4>
+                </div>
+                <div class="platform-card">
+                  <div class="platform-icon">
+                    <img src="./assets/images/keras-logo.png" alt="Keras" loading="lazy">
+                  </div>
+                  <h4>Keras</h4>
+                </div>
+                <div class="platform-card">
+                  <div class="platform-icon">
+                    <img src="./assets/images/flask-logo.png" alt="Flask" loading="lazy">
+                  </div>
+                  <h4>Flask</h4>
+                </div>
+
+                
+                <!-- Add more Backend Development skills -->
+              </div>
+            </div>
+          
+            <!-- DataBase -->
+            <div class="skill-category">
+              <h3 class="category-title">DataBase Skills</h3>
+              <div class="skills-grid platforms-grid">
+                <div class="platform-card">
+                  <div class="platform-icon">
+                    <img src="./assets/images/firebase-logo.png" alt="Firebase" loading="lazy">
+                  </div>
+                  <h4>Firebase</h4>
+                </div>
+                <div class="platform-card">
+                  <div class="platform-icon">
+                    <img src="./assets/images/mysql.png" alt="My SQL" loading="lazy">
+                  </div>
+                  <h4>My SQL</h4>
+                </div>
+                
+             
+                
+                <!-- Add more DataBase  skills -->
+              </div>
+            </div>
+          
+            <!-- IDEs & Platforms -->
+            <div class="skill-category">
+              <h3 class="category-title">IDEs & Platforms</h3>
+              <div class="skills-grid platforms-grid">
+                <div class="platform-card">
+                  <div class="platform-icon">
+                    <img src="./assets/images/visual-studio-code.png" alt="VS Code" loading="lazy">
+                  </div>
+                  <h4>VS Code</h4>
+                </div>
+                <div class="platform-card">
+                  <div class="platform-icon">
+                    <img src="./assets/images/android.png" alt="Android Studio" loading="lazy">
+                  </div>
+                  <h4>Android Studio</h4>
+                </div>
+                
+                <div class="platform-card">
+                  <div class="platform-icon">
+                    <img src="./assets/images/Arduino-IDE-Logo-1.png" alt="Arduino IDE" loading="lazy">
+                  </div>
+                  <h4>Arduino IDE</h4>
+                </div>
+                <div class="platform-card">
+                  <div class="platform-icon">
+                    <img src="./assets/images/intellij-idea-icon-1024x1014-qi2.png" alt="Intellij IDE" loading="lazy">
+                  </div>
+                  <h4>Intellij IDE</h4>
+                </div>
+                <div class="platform-card">
+                  <div class="platform-icon">
+                    <img src="./assets/images/jupyter_logo_icon_169452.png" alt="Jupyter Notebook" loading="lazy">
+                  </div>
+                  <h4>Jupyter Notebook</h4>
+                </div>
+                <div class="platform-card">
+                  <div class="platform-icon">
+                    <img src="./assets/images/eclipse-11-logo.png" alt="Eclipse IDE" loading="lazy">
+                  </div>
+                  <h4>Eclipse IDE</h4>
+                </div>
+                <div class="platform-card">
+                  <div class="platform-icon">
+                    <img src="./assets/images/github_PNG80.png" alt="GitHub" loading="lazy">
+                  </div>
+                  <h4>GitHub</h4>
+                </div>
+                <div class="platform-card">
+                  <div class="platform-icon">
+                    <img src="./assets/images/codeblock.png" alt="CodeBlock" loading="lazy">
+                  </div>
+                  <h4>CodeBlock</h4>
+                </div>
+                
+                <!-- Add more IDE/Platform skills -->
+              </div>
+            </div>
+
+
+             <!-- Programming Skills -->
+             <div class="skill-category">
+              <h3 class="category-title">Other Programming Skills</h3>
+              <div class="skills-grid platforms-grid">
+                <div class="platform-card">
+                  <div class="platform-icon">
+                    <img src="./assets/images/java.png" alt="Java" loading="lazy">
+                  </div>
+                  <h4>Java</h4>
+                </div>
+                <div class="platform-card">
+                  <div class="platform-icon">
+                    <img src="./assets/images/c.png" alt="C" loading="lazy">
+                  </div>
+                  <h4>C</h4>
+                </div>
+
+                <div class="platform-card">
+                  <div class="platform-icon">
+                    <img src="./assets/images/cplusplus.png" alt="C++" loading="lazy">
+                  </div>
+                  <h4>C++</h4>
+                </div>
+                
+              </div>
+            </div>
+                <!-- Add more Programming skills -->
+
+
+                 <!-- Operating System -->
+             <div class="skill-category">
+              <h3 class="category-title">Operating System</h3>
+              <div class="skills-grid platforms-grid">
+                <div class="platform-card">
+                  <div class="platform-icon">
+                    <img src="./assets/images/microsoft-windows.png" alt="Windows" loading="lazy">
+                  </div>
+                  <h4>Windows</h4>
+                </div>
+                <div class="platform-card">
+                  <div class="platform-icon">
+                    <img src="./assets/images/linux.png" alt="Linux" loading="lazy">
+                  </div>
+                  <h4>Linux</h4>
+                </div>
+
+
+                
+              </div>
+            </div>
+                <!-- Add more Operating System skills -->
+          </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #CONTACT
+      -->
+
+      <article class="contact" data-page="contact">
+
+        <header>
+          <h2 class="h2 article-title" id="resume-title">Contact</h2>
+        </header>
+
+        <section class="mapbox" data-mapbox>
+          <figure>
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3668.227991104298!2d77.4356512!3d23.2340515!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x397c4268484cb377%3A0x8cc6def22e175a35!2sChetak+Bridge%2C+Bhopal%2C+Madhya+Pradesh+462023!5e0!3m2!1sen!2sin!4v1650000000000!5m2!1sen!2sin"  
+              width="400" height="300" loading="lazy"></iframe>
+          </figure>
+        </section>
+
+        <section class="contact-form">
+
+          <h3 class="h3 form-title">Contact Form</h3>
+
+          <form action="#" class="form" data-form>
+
+            <div class="input-wrapper">
+              <input type="text" name="fullname" class="form-input" placeholder="Full name" required data-form-input>
+
+              <input type="email" name="email" class="form-input" placeholder="Email address" required data-form-input>
+            </div>
+
+            <textarea name="message" class="form-input" placeholder="Your Message" required data-form-input></textarea>
+
+            <button class="form-btn" type="submit" disabled data-form-btn>
+              <!-- Custom Send Icon Container -->
+              <div class="send-icon-container">
+                <img src="./assets/images/paper-plane.png" alt="Send" class="send-custom-icon">
+                <div class="send-icon-glow"></div>
+              </div>
+              <span>Send Message</span>
+              <div class="btn-hover-shine"></div>
+            </button>
+
+          </form>
+
+        </section>
+
+      </article>
+
+    </div>
+
+  </main>
+
+
+
+
+
+
+  <!--
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
