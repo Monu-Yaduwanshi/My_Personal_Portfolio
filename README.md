@@ -120,4 +120,4 @@ val stack = listOf("Kotlin", "Jetpack Compose", "Firebase")
 
 ---
 
-Would you like me to add any images, animations, or a personal introduction video link? 😊  
+
