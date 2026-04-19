@@ -37,24 +37,6 @@
   </noscript>
 
 </head>
-<!-- mjm
-k
-javaj
-github_PNG80
-f
-q
-qw
-we
-e
-sbc
-hgf
-fgse
-gdgg
-gdgh
-dgrfh
-fghft
-hfrfty
-ghggtfg -->
 
 <body>
   <script type="module" src="/assets/js/firebase.js"></script>
@@ -91,7 +73,7 @@ ghggtfg -->
           <h1 class="name" title="Monu Yaduwanshi">Monu Yaduwanshi</h1>
           
           <!-- Moved title here -->
-          <p class="title">Android App Developer</p>
+          <p class="title">App Developer & Software Developer</p>
           
           <!-- Sparkles remain here -->
           <div class="sparkle s1"></div>
@@ -175,7 +157,7 @@ ghggtfg -->
             </div>
             <div class="contact-info">
               <p class="contact-title">Location</p>
-              <address class="contact-link">C-64 Bharati Niketan, Bhopal, India</address>
+              <address class="contact-link">Bharati Niketan,Govindpura, Bhopal, India</address>
             </div>
           </li>
         </ul>
@@ -191,7 +173,7 @@ ghggtfg -->
         <!-- Social links with hover effects -->
         <ul class="social-list">
           <li class="social-item">
-            <a href="https://github.com/Monu-Yaduwanshi" class="social-link" target="_blank">
+            <a href="https://facebook.com/in/" class="social-link" target="_blank">
               <div class="social-icon-container">
                 <img src="/assets/images/facebook.png" alt="Facebook" class="social-icon">
                 <div class="social-glow"></div>
@@ -221,7 +203,7 @@ ghggtfg -->
           </li>
         
           <li class="social-item">
-            <a href="https://github.com/Monu-Yaduwanshi" class="social-link" target="_blank">
+            <a href="https://youtube.com/in/" class="social-link" target="_blank">
               <div class="social-icon-container">
                 <img src="/assets/images/youtube.png" alt="YouTube" class="social-icon">
                 <div class="social-glow"></div>
@@ -266,38 +248,41 @@ ghggtfg -->
       <!--
         - #NAVBAR
       -->
+<nav class="navbar">
+  <ul class="navbar-list">
+    <li class="navbar-item">
+      <button class="navbar-link active" data-nav-link="about">About</button>
+      <!-- <button class="navbar-link active" data-nav-link>About</button> -->
+    </li>
+    <li class="navbar-item">
+      <button class="navbar-link" data-nav-link="resume">Resume</button>
 
-      <nav class="navbar">
+      <!-- <button class="navbar-link" data-nav-link>Resume</button> -->
+    </li>
+    <li class="navbar-item">
+      <button class="navbar-link" data-nav-link="portfolio">Portfolio</button>
 
-        <ul class="navbar-list">
+      <!-- <button class="navbar-link" data-nav-link>Portfolio</button> -->
+    </li>
+    <li class="navbar-item">
+      <button class="navbar-link" data-nav-link="skills">Skills</button>
 
-          <li class="navbar-item">
-            <button class="navbar-link  active" data-nav-link>About</button>
-          </li>
+      <!-- <button class="navbar-link" data-nav-link>Skills</button> -->
+    </li>
+    <li class="navbar-item">
+      <button class="navbar-link" data-nav-link="contact">Contact</button>
 
-          <li class="navbar-item">
-            <button class="navbar-link" data-nav-link>Resume</button>
-          </li>
+      <!-- <button class="navbar-link" data-nav-link>Contact</button> -->
+    </li>
+    <li class="navbar-item">
+      <button class="navbar-link" data-nav-link="apps">Apps</button>
 
-          <li class="navbar-item">
-            <button class="navbar-link" data-nav-link>Portfolio</button>
-          </li>
+      <!-- <button class="navbar-link" data-nav-link="apps">Apps</button> -->
 
-          <li class="navbar-item">
-            <button class="navbar-link" data-nav-link>Skills</button>
-          </li>
-
-          <li class="navbar-item">
-            <button class="navbar-link" data-nav-link>Contact</button>
-          </li>
-
-        </ul>
-
-      </nav>
-
-
-
-
+      <!-- <button class="navbar-link" data-nav-link>Apps</button> -->
+    </li>
+  </ul>
+</nav>
 
       <!--
         - #ABOUT
@@ -1299,271 +1284,372 @@ ghggtfg -->
 
         
 
-      <!--
-        - #PORTFOLIO
-      -->
+<!--
+  =============================================
+  PORTFOLIO SECTION — Complete Drop-in HTML
+  Replace your entire <article data-page="portfolio"> block with this
+  Image paths are fixed to match your actual /assets/images/ filenames
+  =============================================
+-->
 
-      
-        <article class="portfolio" data-page="portfolio">
-         
-            <header>
-               <h2 class="h2 article-title" id="resume-title">Portfolio</h2>
-            </header>
-          
-            <section class="projects">
-          
-              <!-- Filter Buttons -->
-              <ul class="filter-list">
-                <li class="filter-item">
-                  <button class="active" data-filter-btn>All</button>
-                </li>
-                <li class="filter-item">
-                  <button data-filter-btn>Android Development</button>
-                </li>
-                <li class="filter-item">
-                  <button data-filter-btn>Web Development</button>
-                </li>
-                <li class="filter-item">
-                  <button data-filter-btn>AI/ML</button>
-                </li>
-              </ul>
-          
-              <!-- Mobile Dropdown Filter -->
-              <div class="filter-select-box">
-                <button class="filter-select" data-select>
-                  <div class="select-value" data-select-value>Select category</div>
-                  <div class="select-icon">
-                    <ion-icon name="chevron-down"></ion-icon>
-                  </div>
-                </button>
-                <ul class="select-list">
-                  <li class="select-item">
-                    <button data-select-item>All</button>
-                  </li>
-                  <li class="select-item">
-                    <button data-select-item>Android Development</button>
-                  </li>
-                  <li class="select-item">
-                    <button data-select-item>Web Development</button>
-                  </li>
-                  <li class="select-item">
-                    <button data-select-item>AI/ML</button>
-                  </li>
-                </ul>
-              </div>
-          
-              <!-- Projects Grid -->
-              <ul class="project-list">
-  
-                <!-- Contract Farming Android App -->
-                <li class="project-item active" data-filter-item data-category="android development">
-                  <a href="https://github.com/Monu-Yaduwanshi/Android-Development-Contract-Farming" target="_blank" rel="noopener noreferrer">
-                    <figure class="project-img">
-                      <div class="project-img-container">
-                        <img src="/assets/images/3cropbazaarss.png" alt="Contract Farming App" loading="lazy" class="project-main-img">
-                        <!-- <img src="./assets/images/letter-m.png" alt="Developer" class="project-hover-img"> -->
-                      </div>
-                      <div class="project-item-icon-box">
-                        <img src="/assets/images/githubblack.png" alt="GitHub" class="github-custom-icon">
-                        <div class="icon-hover-glow"></div>
-                      </div>
-                    </figure>
-                    <h3 class="project-title">Contract Farming App</h3>
-                    <p class="project-category">Android Development</p>
-                    <div class="project-hover-content">
-                      <p>• Kotlin <br>• Jetpack Compose <br> • Firebase</p>
-                    </div>
-                    <div class="project-hover-overlay"></div>
-                    <div class="project-hover-border"></div>
-                  </a>
-                </li>
-              <!-- RAKSHA ASTRA – Women Safety App -->
-<li class="project-item active" data-filter-item data-category="android development">
+<article class="portfolio" data-page="portfolio">
+
+  <header class="portfolio-header">
+    <div class="portfolio-header-left">
+      <h2 class="h2 article-title" id="resume-title">Portfolio</h2>
+      <p class="portfolio-subtitle">Selected Works</p>
+    </div>
+    <div class="portfolio-header-right">
+      <span class="portfolio-count" id="portfolio-count">8</span>
+      <span class="portfolio-count-label">Projects</span>
+    </div>
+  </header>
+
+  <section class="projects">
+
+    <!-- ── Desktop Filter Buttons ── -->
+     <ul class="filter-list">
+  <li class="filter-item">
+    <button class="active" data-filter-btn data-cat="all">All</button>
+  </li>
+  <li class="filter-item">
+    <button data-filter-btn data-cat="android">Android Dev</button>
+  </li>
+  <li class="filter-item">
+    <button data-filter-btn data-cat="web">Web Dev</button>
+  </li>
+  <li class="filter-item">
+    <button data-filter-btn data-cat="ai">AI / ML</button>
+  </li>
+  <li class="filter-item">
+    <button data-filter-btn data-cat="app">Applications</button>
+  </li>
+</ul>
+    <!-- <ul class="filter-list">
+      <li class="filter-item">
+        <button class="active" data-filter-btn data-cat="all">All</button>
+      </li>
+      <li class="filter-item">
+        <button data-filter-btn data-cat="android development">Android Dev</button>
+      </li>
+      <li class="filter-item">
+        <button data-filter-btn data-cat="web development">Web Dev</button>
+      </li>
+      <li class="filter-item">
+        <button data-filter-btn data-cat="ai/ml">AI / ML</button>
+      </li>
+      <li class="filter-item">
+        <button data-filter-btn data-cat="applications">Applications</button>
+      </li>
+    </ul> -->
+
+    <!-- ── Mobile Dropdown Filter ── -->
+    <div class="filter-select-box">
+      <button class="filter-select" data-select>
+        <div class="select-value" data-select-value>Select category</div>
+        <div class="select-icon">
+          <ion-icon name="chevron-down"></ion-icon>
+        </div>
+      </button>
+      <ul class="select-list">
+  <li class="select-item"><button data-select-item data-cat="all">All</button></li>
+  <li class="select-item"><button data-select-item data-cat="android">Android Dev</button></li>
+  <li class="select-item"><button data-select-item data-cat="web">Web Dev</button></li>
+  <li class="select-item"><button data-select-item data-cat="ai">AI / ML</button></li>
+  <li class="select-item"><button data-select-item data-cat="app">Applications</button></li>
+</ul> 
+      <!-- <ul class="select-list">
+        <li class="select-item"><button data-select-item data-cat="all">All</button></li>
+        <li class="select-item"><button data-select-item data-cat="android development">Android Dev</button></li>
+        <li class="select-item"><button data-select-item data-cat="web development">Web Dev</button></li>
+        <li class="select-item"><button data-select-item data-cat="ai/ml">AI / ML</button></li>
+        <li class="select-item"><button data-select-item data-cat="applications">Applications</button></li>
+      </ul> -->
+    </div>
+
+    <!-- ── Projects Grid ── -->
+    <ul class="project-list" id="project-list">
+
+   <!-- 1. Contract Farming Android App - FIXED -->
+<li class="project-item" data-filter-item data-category="android" style="animation-delay:0.05s">
+  <a href="https://github.com/Monu-Yaduwanshi/Android-Development-Contract-Farming" target="_blank" rel="noopener noreferrer">
+    <figure class="project-img">
+      <div class="project-img-container">
+        <img src="/assets/images/CropBazzar.png" alt="Contract Farming App" loading="lazy" class="project-main-img">
+      </div>
+      <div class="project-tech-overlay">
+        <div class="project-tech-tags">
+          <span class="tech-tag">Kotlin</span>
+          <span class="tech-tag">Jetpack Compose</span>
+          <span class="tech-tag">Firebase</span>
+        </div>
+      </div>
+      <div class="project-item-icon-box">
+        <img src="/assets/images/githubblack.png" alt="GitHub" class="github-custom-icon">
+        <div class="icon-hover-glow"></div>
+      </div>
+    </figure>
+    <div class="project-card-body">
+      <div class="project-card-meta">
+        <p class="project-category">Android Dev</p>
+        <div class="project-arrow">
+          <svg viewBox="0 0 14 14" fill="none" stroke="currentColor" stroke-width="1.5">
+            <path d="M2 12L12 2M12 2H6M12 2v6"/>
+          </svg>
+        </div>
+      </div>
+      <h3 class="project-title">Contract Farming App</h3>
+      <div class="project-card-line"></div>
+    </div>
+  </a>
+</li>
+
+<!-- 2. Raksha Astra – Women Safety App - FIXED -->
+<li class="project-item" data-filter-item data-category="android" style="animation-delay:0.1s">
   <a href="https://github.com/Monu-Yaduwanshi/Raksha_Astra/blob/main/README.md" target="_blank" rel="noopener noreferrer">
     <figure class="project-img">
       <div class="project-img-container">
         <img src="/assets/images/Raksha_Astraa.png" alt="Raksha Astra App" loading="lazy" class="project-main-img">
-        <!-- <img src="./assets/images/letter-m.png" alt="Developer" class="project-hover-img"> -->
       </div>
-
+      <div class="project-tech-overlay">
+        <div class="project-tech-tags">
+          <span class="tech-tag">Kotlin</span>
+          <span class="tech-tag">Firebase Auth</span>
+          <span class="tech-tag">Cloudinary</span>
+          <span class="tech-tag">Google Maps</span>
+        </div>
+      </div>
       <div class="project-item-icon-box">
         <img src="/assets/images/githubblack.png" alt="GitHub" class="github-custom-icon">
         <div class="icon-hover-glow"></div>
       </div>
     </figure>
-
-    <h3 class="project-title">Raksha Astra – Women Safety App</h3>
-    <p class="project-category">Android Development</p>
-
-    <div class="project-hover-content">
-      <p>
-        • Kotlin & Jetpack Compose <br>
-        • Firebase (Auth, Realtime DB) <br>
-        • Cloudinary (Media Upload) <br>
-        • Google Maps & Location APIs
-      </p>
+    <div class="project-card-body">
+      <div class="project-card-meta">
+        <p class="project-category">Android Dev</p>
+        <div class="project-arrow">
+          <svg viewBox="0 0 14 14" fill="none" stroke="currentColor" stroke-width="1.5">
+            <path d="M2 12L12 2M12 2H6M12 2v6"/>
+          </svg>
+        </div>
+      </div>
+      <h3 class="project-title">Raksha Astra – Women Safety App</h3>
+      <div class="project-card-line"></div>
     </div>
-
-    <div class="project-hover-overlay"></div>
-    <div class="project-hover-border"></div>
   </a>
 </li>
-<!-- RAKSHA SETU – Society Visitor Management System -->
-<li class="project-item active" data-filter-item data-category="android development">
+
+<!-- 3. Raksha Setu – Visitor Management - FIXED -->
+<li class="project-item" data-filter-item data-category="android" style="animation-delay:0.15s">
   <a href="https://github.com/Monu-Yaduwanshi/Raksha-Setu" target="_blank" rel="noopener noreferrer">
-    
     <figure class="project-img">
       <div class="project-img-container">
         <img src="/assets/images/1rakshaSetu.png" alt="Raksha Setu App" loading="lazy" class="project-main-img">
       </div>
-
+      <div class="project-tech-overlay">
+        <div class="project-tech-tags">
+          <span class="tech-tag">Kotlin</span>
+          <span class="tech-tag">Firestore</span>
+          <span class="tech-tag">Cloudinary</span>
+          <span class="tech-tag">Real-Time Notifs</span>
+        </div>
+      </div>
       <div class="project-item-icon-box">
         <img src="/assets/images/githubblack.png" alt="GitHub" class="github-custom-icon">
         <div class="icon-hover-glow"></div>
       </div>
     </figure>
-
-    <h3 class="project-title">Raksha Setu – Society Visitor Management</h3>
-    <p class="project-category">Android Development</p>
-
-    <div class="project-hover-content">
-      <p>
-        • Kotlin & Jetpack Compose <br>
-        • Firebase Authentication & Firestore <br>
-        • Cloudinary Image Upload <br>
-        • Visitor Approval & Real-Time Notifications
-      </p>
+    <div class="project-card-body">
+      <div class="project-card-meta">
+        <p class="project-category">Android Dev</p>
+        <div class="project-arrow">
+          <svg viewBox="0 0 14 14" fill="none" stroke="currentColor" stroke-width="1.5">
+            <path d="M2 12L12 2M12 2H6M12 2v6"/>
+          </svg>
+        </div>
+      </div>
+      <h3 class="project-title">Raksha Setu – Visitor Management</h3>
+      <div class="project-card-line"></div>
     </div>
-
-    <div class="project-hover-overlay"></div>
-    <div class="project-hover-border"></div>
   </a>
 </li>
-<!-- JEEVAN RAKSHAK – Emergency Assistance App -->
-<li class="project-item active" data-filter-item data-category="android development">
+
+<!-- 4. Jeevan Rakshak – Emergency Assistance - FIXED -->
+<li class="project-item" data-filter-item data-category="android" style="animation-delay:0.2s">
   <a href="https://github.com/Monu-Yaduwanshi/Jeevan_Rakshak" target="_blank" rel="noopener noreferrer">
-    
     <figure class="project-img">
       <div class="project-img-container">
         <img src="/assets/images/2jeevanrakshak.png" alt="Jeevan Rakshak App" loading="lazy" class="project-main-img">
       </div>
-
+      <div class="project-tech-overlay">
+        <div class="project-tech-tags">
+          <span class="tech-tag">Kotlin</span>
+          <span class="tech-tag">FCM</span>
+          <span class="tech-tag">GPS Tracking</span>
+          <span class="tech-tag">SOS System</span>
+        </div>
+      </div>
       <div class="project-item-icon-box">
         <img src="/assets/images/githubblack.png" alt="GitHub" class="github-custom-icon">
         <div class="icon-hover-glow"></div>
       </div>
     </figure>
-
-    <h3 class="project-title">Jeevan Rakshak – Emergency Assistance App</h3>
-    <p class="project-category">Android Development</p>
-
-    <div class="project-hover-content">
-      <p>
-        • Kotlin & Jetpack Compose <br>
-        • Firebase (Auth, Firestore, FCM) <br>
-        • Google Maps & GPS Tracking <br>
-        • Emergency SOS & Ambulance System
-      </p>
+    <div class="project-card-body">
+      <div class="project-card-meta">
+        <p class="project-category">Android Dev</p>
+        <div class="project-arrow">
+          <svg viewBox="0 0 14 14" fill="none" stroke="currentColor" stroke-width="1.5">
+            <path d="M2 12L12 2M12 2H6M12 2v6"/>
+          </svg>
+        </div>
+      </div>
+      <h3 class="project-title">Jeevan Rakshak – Emergency Assist</h3>
+      <div class="project-card-line"></div>
     </div>
-
-    <div class="project-hover-overlay"></div>
-    <div class="project-hover-border"></div>
   </a>
 </li>
 
-                <!-- Climate Impact Predictor -->
-                <li class="project-item active" data-filter-item data-category="ai/ml">
-                  <a href="https://github.com/Monu-Yaduwanshi/Climate_Impact_Financial_Predictor" target="_blank" rel="noopener noreferrer">
-                    <figure class="project-img">
-                      <div class="project-img-container">
-                        <img src="/assets/images/FinancePredictor.png" alt="Climate Impact Predictor" loading="lazy" class="project-main-img">
-                        <!-- <img src="./assets/images/letter-m.png" alt="Developer" class="project-hover-img"> -->
-                      </div>
-                      <div class="project-item-icon-box">
-                        <img src="/assets/images/github_PNG80.png" alt="GitHub" class="github-custom-icon">
-                        <div class="icon-hover-glow"></div>
-                      </div>
-                    </figure>
-                    <h3 class="project-title">Climate Impact Predictor</h3>
-                    <p class="project-category">AI/ML</p>
-                    <div class="project-hover-content">
-                      <p>• Python <br>• TensorFlow Lite <br>• Kotlin</p>
-                    </div>
-                    <div class="project-hover-overlay"></div>
-                    <div class="project-hover-border"></div>
-                  </a>
-                </li>
-              
-                <!-- Tour & Travel Management -->
-                <li class="project-item active" data-filter-item data-category="web development">
-                  <a href="https://github.com/Monu-Yaduwanshi/Tour-and-travel-frontend-Website" target="_blank" rel="noopener noreferrer">
-                    <figure class="project-img">
-                      <div class="project-img-container">
-                        <img src="/assets/images/T&T.png" alt="Tour & Travel System" loading="lazy" class="project-main-img">
-                        <!-- <img src="./assets/images/letter-m.png" alt="Developer" class="project-hover-img"> -->
-                      </div>
-                      <div class="project-item-icon-box">
-                        <img src="/assets/images/githubblack.png" alt="GitHub" class="github-custom-icon">
-                        <div class="icon-hover-glow"></div>
-                      </div>
-                    </figure>
-                    <h3 class="project-title">Tour & Travel System</h3>
-                    <p class="project-category">Web Development</p>
-                    <div class="project-hover-content">
-                      <p>• HTML <br>• CSS <br>• JavaScript</p>
-                    </div>
-                    <div class="project-hover-overlay"></div>
-                    <div class="project-hover-border"></div>
-                  </a>
-                </li>
-              
-                <!-- Library Management System -->
-                <li class="project-item active" data-filter-item data-category="applications">
-                  <a href="https://github.com/Monu-Yaduwanshi/Java-Library-Management-System" target="_blank" rel="noopener noreferrer">
-                    <figure class="project-img">
-                      <div class="project-img-container">
-                        <img src="/assets/images/LMS2.png" alt="Library Management" loading="lazy" class="project-main-img">
-                        <!-- <img src="./assets/images/letter-m.png" alt="Developer" class="project-hover-img"> -->
-                      </div>
-                      <div class="project-item-icon-box">
-                        <img src="/assets/images/github_PNG80.png" alt="GitHub" class="github-custom-icon">
-                        <div class="icon-hover-glow"></div>
-                      </div>
-                    </figure>
-                    <h3 class="project-title">Library Management</h3>
-                    <p class="project-category">Applications</p>
-                    <div class="project-hover-content">
-                      <p>• Java <br>• Swing <br>• MySQL <br>• JDBC <br>• Hibernate</p>
-                    </div>
-                    <div class="project-hover-overlay"></div>
-                    <div class="project-hover-border"></div>
-                  </a>
-                </li>
-              
-                <!-- Personal Portfolio Website -->
-                <li class="project-item active" data-filter-item data-category="web development">
-                  <a href="https://github.com/Monu-Yaduwanshi/My_Personal_Portfolio" target="_blank" rel="noopener noreferrer">
-                    <figure class="project-img">
-                      <div class="project-img-container">
-                        <img src="/assets/images/personalPortfolioss.png" alt="Portfolio Website" loading="lazy" class="project-main-img">
-                      </div>
-                      <div class="project-item-icon-box">
-                        <img src="/assets/images/githubblack.png" alt="GitHub" class="github-custom-icon">
-                        <div class="icon-hover-glow"></div>
-                      </div>
-                    </figure>
-                    <h3 class="project-title">Portfolio Website</h3>
-                    <p class="project-category">Web Development</p>
-                    <div class="project-hover-content">
-                      <p>• HTML <br>• CSS <br>• JavaScript</p>
-                    </div>
-                    <div class="project-hover-overlay"></div>
-                    <div class="project-hover-border"></div>
-                  </a>
-                </li>
-              </ul>
-            </section>
-          </article>
+<!-- 5. Climate Impact Predictor - FIXED -->
+<li class="project-item" data-filter-item data-category="ai" style="animation-delay:0.25s">
+  <a href="https://github.com/Monu-Yaduwanshi/Climate_Impact_Financial_Predictor" target="_blank" rel="noopener noreferrer">
+    <figure class="project-img">
+      <div class="project-img-container">
+        <img src="/assets/images/FinancePredictor.png" alt="Climate Impact Predictor" loading="lazy" class="project-main-img">
+      </div>
+      <div class="project-tech-overlay">
+        <div class="project-tech-tags">
+          <span class="tech-tag">Python</span>
+          <span class="tech-tag">TensorFlow Lite</span>
+          <span class="tech-tag">Kotlin</span>
+        </div>
+      </div>
+      <div class="project-item-icon-box">
+        <img src="/assets/images/github_PNG80.png" alt="GitHub" class="github-custom-icon">
+        <div class="icon-hover-glow"></div>
+      </div>
+    </figure>
+    <div class="project-card-body">
+      <div class="project-card-meta">
+        <p class="project-category">AI / ML</p>
+        <div class="project-arrow">
+          <svg viewBox="0 0 14 14" fill="none" stroke="currentColor" stroke-width="1.5">
+            <path d="M2 12L12 2M12 2H6M12 2v6"/>
+          </svg>
+        </div>
+      </div>
+      <h3 class="project-title">Climate Impact Predictor</h3>
+      <div class="project-card-line"></div>
+    </div>
+  </a>
+</li>
+
+<!-- 6. Tour & Travel Management - FIXED -->
+<li class="project-item" data-filter-item data-category="web" style="animation-delay:0.3s">
+  <a href="https://github.com/Monu-Yaduwanshi/Tour-and-travel-frontend-Website" target="_blank" rel="noopener noreferrer">
+    <figure class="project-img">
+      <div class="project-img-container">
+        <img src="/assets/images/T&T.png" alt="Tour & Travel System" loading="lazy" class="project-main-img">
+      </div>
+      <div class="project-tech-overlay">
+        <div class="project-tech-tags">
+          <span class="tech-tag">HTML</span>
+          <span class="tech-tag">CSS</span>
+          <span class="tech-tag">JavaScript</span>
+        </div>
+      </div>
+      <div class="project-item-icon-box">
+        <img src="/assets/images/githubblack.png" alt="GitHub" class="github-custom-icon">
+        <div class="icon-hover-glow"></div>
+      </div>
+    </figure>
+    <div class="project-card-body">
+      <div class="project-card-meta">
+        <p class="project-category">Web Dev</p>
+        <div class="project-arrow">
+          <svg viewBox="0 0 14 14" fill="none" stroke="currentColor" stroke-width="1.5">
+            <path d="M2 12L12 2M12 2H6M12 2v6"/>
+          </svg>
+        </div>
+      </div>
+      <h3 class="project-title">Tour & Travel System</h3>
+      <div class="project-card-line"></div>
+    </div>
+  </a>
+</li>
+
+<!-- 7. Library Management System - FIXED -->
+<li class="project-item" data-filter-item data-category="app" style="animation-delay:0.35s">
+  <a href="https://github.com/Monu-Yaduwanshi/Java-Library-Management-System" target="_blank" rel="noopener noreferrer">
+    <figure class="project-img">
+      <div class="project-img-container">
+        <img src="/assets/images/LMS2.png" alt="Library Management System" loading="lazy" class="project-main-img">
+      </div>
+      <div class="project-tech-overlay">
+        <div class="project-tech-tags">
+          <span class="tech-tag">Java</span>
+          <span class="tech-tag">Swing</span>
+          <span class="tech-tag">MySQL</span>
+          <span class="tech-tag">Hibernate</span>
+        </div>
+      </div>
+      <div class="project-item-icon-box">
+        <img src="/assets/images/github_PNG80.png" alt="GitHub" class="github-custom-icon">
+        <div class="icon-hover-glow"></div>
+      </div>
+    </figure>
+    <div class="project-card-body">
+      <div class="project-card-meta">
+        <p class="project-category">Applications</p>
+        <div class="project-arrow">
+          <svg viewBox="0 0 14 14" fill="none" stroke="currentColor" stroke-width="1.5">
+            <path d="M2 12L12 2M12 2H6M12 2v6"/>
+          </svg>
+        </div>
+      </div>
+      <h3 class="project-title">Library Management System</h3>
+      <div class="project-card-line"></div>
+    </div>
+  </a>
+</li>
+
+<!-- 8. Personal Portfolio Website - FIXED -->
+<li class="project-item" data-filter-item data-category="web" style="animation-delay:0.4s">
+  <a href="https://github.com/Monu-Yaduwanshi/My_Personal_Portfolio" target="_blank" rel="noopener noreferrer">
+    <figure class="project-img">
+      <div class="project-img-container">
+        <img src="/assets/images/PortfolioMy.png" alt="Portfolio Website" loading="lazy" class="project-main-img">
+      </div>
+      <div class="project-tech-overlay">
+        <div class="project-tech-tags">
+          <span class="tech-tag">HTML</span>
+          <span class="tech-tag">CSS</span>
+          <span class="tech-tag">JavaScript</span>
+        </div>
+      </div>
+      <div class="project-item-icon-box">
+        <img src="/assets/images/githubblack.png" alt="GitHub" class="github-custom-icon">
+        <div class="icon-hover-glow"></div>
+      </div>
+    </figure>
+    <div class="project-card-body">
+      <div class="project-card-meta">
+        <p class="project-category">Web Dev</p>
+        <div class="project-arrow">
+          <svg viewBox="0 0 14 14" fill="none" stroke="currentColor" stroke-width="1.5">
+            <path d="M2 12L12 2M12 2H6M12 2v6"/>
+          </svg>
+        </div>
+      </div>
+      <h3 class="project-title">Portfolio Website</h3>
+      <div class="project-card-line"></div>
+    </div>
+  </a>
+</li>
+
+    </ul>
+  </section>
+
+</article>
 
 
 
@@ -1576,7 +1662,7 @@ ghggtfg -->
           
             <!-- Android Development -->
             <div class="skill-category">
-              <h3 class="category-title">Android Development</h3>
+              <h3 class="category-title">Android App Development</h3>
               <div class="skills-grid platforms-grid">
                 <div class="platform-card">
                   <div class="platform-icon">
@@ -1603,7 +1689,35 @@ ghggtfg -->
                
              <!-- Add more Android skills -->
             </div>
-          
+                      <!-- Cross-Platform App Development -->
+            <div class="skill-category">
+              <h3 class="category-title">Cross-Platform App Development</h3>
+              <div class="skills-grid platforms-grid">
+                <div class="platform-card">
+                  <div class="platform-icon">
+                    <img src="/assets/images/reactnative.png" alt="React Native" loading="lazy">
+                  </div>
+                  <h4>React Native</h4>
+                </div>
+
+                <div class="platform-card">
+                  <div class="platform-icon">
+                    <img src="/assets/images/kmp.png" alt="Kotlin Multiplatform" loading="lazy">
+                  </div>
+                  <h4>Kotlin Multiplatform</h4>
+                </div>
+
+                
+                <div class="platform-card">
+                  <div class="platform-icon">
+                    <img src="/assets/images/flutter.png" alt="Flutter" loading="lazy">
+                  </div>
+                  <h4>Flutter</h4>
+                </div>
+                
+               
+             <!-- Add more  skills -->
+            </div>
             <!-- Web Development -->
             <div class="skill-category">
               <h3 class="category-title">Web Development</h3>
@@ -1944,26 +2058,478 @@ ghggtfg -->
 
       </article>
 
+ 
+
+
+      <!--
+        - #APPS
+      -->
+<!--
+  - #APPS
+-->
+<article class="apps" data-page="apps">
+
+  <header>
+   <h2 class="h2 article-title" id="resume-title">My Android Apps</h2>
+  </header>
+<!-- <header>
+  <h2 class="h2 article-title" id="apps-title">My Android Apps</h2>
+</header> -->
+  <section class="apps-container">
+
+    <!-- ================= RAKSHA SETU ================= -->
+    <div class="app-card">
+      <div class="app-header">
+        <img src="/assets/apps/icons/RakshaSetu.png" class="app-icon">
+        <div>
+          <h3 class="app-golden-title">Raksha Setu</h3>
+          <p class="app-silver-subtitle">Visitor Management System</p>
+        </div>
+        <a href="/assets/apk/Raksha Setu.apk" download class="download-btn">Download APK</a>
+      </div>
+
+      <div class="app-screenshots">
+        <img src="/assets/apps/screens/RakshaSetu (1).jpg">
+        <img src="/assets/apps/screens/RakshaSetu (2).jpg">
+        <img src="/assets/apps/screens/RakshaSetu (3).jpg">
+        <img src="/assets/apps/screens/RakshaSetu (4).jpg">
+        <img src="/assets/apps/screens/RakshaSetu (5).jpg">
+        <img src="/assets/apps/screens/RakshaSetu (6).jpg">
+        <img src="/assets/apps/screens/RakshaSetu (7).jpg">
+        <img src="/assets/apps/screens/RakshaSetu (8).jpg">
+        <img src="/assets/apps/screens/RakshaSetu (9).jpg">
+        <img src="/assets/apps/screens/RakshaSetu (10).jpg">
+        <img src="/assets/apps/screens/RakshaSetu (13).jpg">
+        <img src="/assets/apps/screens/RakshaSetu (14).jpg">
+        <img src="/assets/apps/screens/RakshaSetu (16).jpg">
+        <img src="/assets/apps/screens/RakshaSetu (17).jpg">
+        <img src="/assets/apps/screens/RakshaSetu (18).jpg">
+        <img src="/assets/apps/screens/RakshaSetu (19).jpg">
+        <img src="/assets/apps/screens/RakshaSetu (20).jpg">
+        <img src="/assets/apps/screens/RakshaSetu (21).jpg">
+        <img src="/assets/apps/screens/RakshaSetu (22).jpg">
+        <img src="/assets/apps/screens/RakshaSetu (23).jpg">
+        <img src="/assets/apps/screens/RakshaSetu (24).jpg">
+        <img src="/assets/apps/screens/RakshaSetu (25).jpg">
+        <img src="/assets/apps/screens/RakshaSetu (26).jpg">
+      </div>
+
+      <p class="app-desc">
+        <span class="highlight">रक्षा सेतु (Bridge of Protection)</span> - Smart society security system with real-time visitor approval, notifications, and digital logs.
+      </p>
+<!-- <button type="button" class="toggle-btn">View Details</button> -->
+      <!-- <button class="toggle-btn">View Details</button> -->
+
+      <!-- <div class="app-details"> -->
+        <button type="button" class="toggle-btn">View Details</button>
+<div class="app-details">
+        <div class="detail-section">
+          <h4 class="detail-golden">📱 App Modules</h4>
+          <ul>
+            <li><strong>👑 Secretary Module</strong> - Society management, user creation, full access control</li>
+            <li><strong>🛡️ Watchman Module</strong> - Visitor registration, request sending, visitor access management</li>
+            <li><strong>🏠 Resident Module</strong> - Visitor approval/denial, personal access management</li>
+            <li><strong>🔔 Notification Module</strong> - Real-time FCM alerts for visitor requests and approvals</li>
+            <li><strong>📊 Analytics Module</strong> - Visitor logs, entry tracking, security dashboard</li>
+          </ul>
+        </div>
+        
+        <div class="detail-section">
+          <h4 class="detail-golden">⚙️ How It Works</h4>
+          <ol>
+            <li>Watchman captures visitor photo and details</li>
+            <li>Resident receives instant push notification</li>
+            <li>Resident can Allow / Deny / Leave at Gate</li>
+            <li>Watchman receives decision instantly</li>
+            <li>Entry is securely controlled and logged in Firestore</li>
+          </ol>
+        </div>
+
+        <div class="detail-section">
+          <h4 class="detail-golden">🛠️ Tech Stack</h4>
+          <p>Kotlin • Jetpack Compose • MVVM • Firebase Auth • Firestore • FCM • Analytics • QR Code Scanner</p>
+        </div>
+
+        <div class="detail-section">
+          <h4 class="detail-golden">⭐ Key Features</h4>
+          <ul>
+            <li>Visitor photo capture & identity verification</li>
+            <li>Real-time resident approval system</li>
+            <li>QR Code based visitor entry</li>
+            <li>Visitor blacklist support</li>
+            <li>Digital visitor logs & history tracking</li>
+            <li>SOS emergency alerts</li>
+            <li>Offline support & multi-society management</li>
+          </ul>
+        </div>
+      </div>
     </div>
 
+    <!-- ================= JEEVAN RAKSHAK ================= -->
+    <div class="app-card">
+      <div class="app-header">
+        <img src="/assets/apps/icons/JeevanRakshsk.png" class="app-icon">
+        <div>
+          <h3 class="app-golden-title">Jeevan Rakshak</h3>
+          <p class="app-silver-subtitle">Emergency Assistance App</p>
+        </div>
+        <a href="/assets/apk/Jeevan Rakshak.apk" download class="download-btn">Download APK</a>
+      </div>
+
+      <div class="app-screenshots">
+        <img src="/assets/apps/screens/JeevanRakshak (1).jpg">
+        <img src="/assets/apps/screens/JeevanRakshak (2).jpg">
+        <img src="/assets/apps/screens/JeevanRakshak (3).jpg">
+        <img src="/assets/apps/screens/JeevanRakshak (4).jpg">
+        <img src="/assets/apps/screens/JeevanRakshak (5).jpg">
+        <img src="/assets/apps/screens/JeevanRakshak (6).jpg">
+        <img src="/assets/apps/screens/JeevanRakshak (7).jpg">
+        <img src="/assets/apps/screens/JeevanRakshak (8).jpg">
+        <img src="/assets/apps/screens/JeevanRakshak (9).jpg">
+        <img src="/assets/apps/screens/JeevanRakshak (10).jpg">
+      </div>
+
+      <p class="app-desc">
+        <span class="highlight">जीवन रक्षक (Life Savior)</span> - One-tap SOS, ambulance services, GPS tracking, and generic medicine marketplace.
+      </p>
+<button type="button" class="toggle-btn">View Details</button>
+
+      <!-- <button class="toggle-btn">View Details</button> -->
+
+      <div class="app-details">
+        <div class="detail-section">
+          <h4 class="detail-golden">📱 App Modules</h4>
+          <ul>
+            <li><strong>👤 Patient Module</strong> - SOS trigger, emergency contacts, medicine orders</li>
+            <li><strong>🩺 Doctor Module</strong> - Appointments, patient history, digital prescriptions</li>
+            <li><strong>🚑 Ambulance Driver Module</strong> - Trip requests, real-time navigation, status updates</li>
+            <li><strong>💊 Medicine Marketplace Module</strong> - Search, cart, orders, tracking</li>
+            <li><strong>🔔 Notification Module</strong> - SOS alerts, order updates, appointment reminders</li>
+          </ul>
+        </div>
+        
+        <div class="detail-section">
+          <h4 class="detail-golden">⚙️ How It Works</h4>
+          <ol>
+            <li>User presses SOS button → Auto-call & SMS with GPS location</li>
+            <li>Emergency contacts receive instant alert with live location</li>
+            <li>Ambulance driver accepts request and navigates to user</li>
+            <li>Nearby hospitals displayed on Google Maps</li>
+            <li>Generic medicines ordered and delivered</li>
+          </ol>
+        </div>
+
+        <div class="detail-section">
+          <h4 class="detail-golden">🛠️ Tech Stack</h4>
+          <p>Kotlin • Jetpack Compose • Firebase Auth • Realtime DB • Firestore • FCM • Google Maps SDK • Fused Location Provider • myUpchar API • openFDA • DrugBank</p>
+        </div>
+
+        <div class="detail-section">
+          <h4 class="detail-golden">⭐ Key Features</h4>
+          <ul>
+            <li>One-tap SOS with auto-call & SMS</li>
+            <li>Live GPS location sharing & tracking</li>
+            <li>Quick-dial emergency numbers (108, 112)</li>
+            <li>Nearby ambulance & hospital finder</li>
+            <li>Generic medicine marketplace (affordable drugs)</li>
+            <li>Doctor consultation & digital prescriptions</li>
+            <li>Emergency history logging</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <!-- ================= RAKSHA ASTRA ================= -->
+    <div class="app-card">
+      <div class="app-header">
+        <img src="/assets/apps/icons/RakshaAstra.png" class="app-icon">
+        <div>
+          <h3 class="app-golden-title">Raksha Astra</h3>
+          <p class="app-silver-subtitle">Women Safety App</p>
+        </div>
+        <a href="/assets/apk/Raksha Astra.apk" download class="download-btn">Download APK</a>
+      </div>
+
+      <div class="app-screenshots">
+        <img src="/assets/apps/screens/RakshaAstra (1).jpg">
+        <img src="/assets/apps/screens/RakshaAstra (2).jpg">
+        <img src="/assets/apps/screens/RakshaAstra (4).jpg">
+        <img src="/assets/apps/screens/RakshaAstra (5).jpg">
+        <img src="/assets/apps/screens/RakshaAstra (6).jpg">
+        <img src="/assets/apps/screens/RakshaAstra (7).jpg">
+        <img src="/assets/apps/screens/RakshaAstra (8).jpg">
+        <img src="/assets/apps/screens/RakshaAstra (10).jpg">
+        <img src="/assets/apps/screens/RakshaAstra (12).jpg">
+        <img src="/assets/apps/screens/RakshaAstra (13).jpg">
+        <img src="/assets/apps/screens/RakshaAstra (14).jpg">
+        <img src="/assets/apps/screens/RakshaAstra (18).jpg">
+        <img src="/assets/apps/screens/RakshaAstra (19).jpg">
+        <img src="/assets/apps/screens/RakshaAstra (20).jpg">
+        <img src="/assets/apps/screens/RakshaAstra (21).jpg">
+        <img src="/assets/apps/screens/RakshaAstra (22).jpg">
+      </div>
+
+      <p class="app-desc">
+        <span class="highlight">रक्षा अस्त्र (Weapon of Protection)</span> - Real-time safety app with SOS, live tracking, community alerts, and evidence upload.
+      </p>
+<button type="button" class="toggle-btn">View Details</button>
+
+      <!-- <button class="toggle-btn">View Details</button> -->
+
+      <div class="app-details">
+        <div class="detail-section">
+          <h4 class="detail-golden">📱 App Modules</h4>
+          <ul>
+            <li><strong>🆘 SOS Module</strong> - One-tap emergency trigger with auto-alerts</li>
+            <li><strong>📍 Live Tracking Module</strong> - Real-time GPS location sharing</li>
+            <li><strong>👥 Community Alert Module</strong> - Nearby user notifications during emergency</li>
+            <li><strong>📸 Evidence Upload Module</strong> - Photo/video capture with Cloudinary storage</li>
+            <li><strong>🗺️ Safe Route Module</strong> - Red/Yellow/Green zone detection</li>
+            <li><strong>💾 Offline Module</strong> - Room/DataStore local cache for offline access</li>
+          </ul>
+        </div>
+        
+        <div class="detail-section">
+          <h4 class="detail-golden">⚙️ How It Works</h4>
+          <ol>
+            <li>User presses SOS button → SMS & push notifications sent instantly</li>
+            <li>Live location starts updating in Firebase Realtime Database</li>
+            <li>Community responders within radius receive alert</li>
+            <li>Evidence (photo/video) uploaded encrypted to Cloudinary</li>
+            <li>Trusted contacts receive shareable evidence link</li>
+            <li>Red zone warnings if user enters high-risk area</li>
+          </ol>
+        </div>
+
+        <div class="detail-section">
+          <h4 class="detail-golden">🛠️ Tech Stack</h4>
+          <p>Kotlin • Jetpack Compose • MVVM • Firebase Auth • Realtime DB • FCM • Cloudinary • Google Maps SDK • Fused Location Provider • Room Database • DataStore</p>
+        </div>
+
+        <div class="detail-section">
+          <h4 class="detail-golden">⭐ Key Features</h4>
+          <ul>
+            <li>One-tap SOS (< 5 seconds response)</li>
+            <li>Live GPS location tracking with battery optimization</li>
+            <li>Red Zone (high-risk) / Yellow Zone / Green Zone alerts</li>
+            <li>Community safety network (crowd-powered)</li>
+            <li>Offline mode - SOS works without internet</li>
+            <li>Secure encrypted media upload to Cloudinary</li>
+            <li>Safe route recommendations</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <!-- ================= CROPBAZAAR ================= -->
+    <div class="app-card">
+      <div class="app-header">
+        <img src="/assets/apps/icons/CropBazaar.png" class="app-icon">
+        <div>
+          <h3 class="app-golden-title">CropBazaar</h3>
+          <p class="app-silver-subtitle">Contract Farming Platform</p>
+        </div>
+        <a href="/assets/apk/Crop Bazaar.apk" download class="download-btn">Download APK</a>
+      </div>
+
+      <div class="app-screenshots">
+        <img src="/assets/apps/screens/CropBazaar (1).jpg">
+        <img src="/assets/apps/screens/CropBazaar (1).png">
+        <img src="/assets/apps/screens/CropBazaar (2).png">
+        <img src="/assets/apps/screens/CropBazaar (3).jpg">
+        <img src="/assets/apps/screens/CropBazaar (4).jpg">
+        <img src="/assets/apps/screens/CropBazaar (5).jpg">
+        <img src="/assets/apps/screens/CropBazaar (6).jpg">
+        <img src="/assets/apps/screens/CropBazaar (7).jpg">
+        <img src="/assets/apps/screens/CropBazaar (8).jpg">
+        <img src="/assets/apps/screens/CropBazaar (11).jpg">
+        <img src="/assets/apps/screens/CropBazaar (12).jpg">
+        <img src="/assets/apps/screens/CropBazaar (13).jpg">
+        <img src="/assets/apps/screens/CropBazaar (16).jpg">
+        <img src="/assets/apps/screens/CropBazaar (17).jpg">
+        <img src="/assets/apps/screens/CropBazaar (18).jpg">
+        <img src="/assets/apps/screens/CropBazaar (19).png">
+        <img src="/assets/apps/screens/CropBazaar (20).jpg">
+      </div>
+
+      <p class="app-desc">
+        <span class="highlight">क्रॉप बाज़ार</span> - Connect farmers directly with buyers for secure and profitable contract farming.
+      </p>
+<button type="button" class="toggle-btn">View Details</button>
+
+      <!-- <button class="toggle-btn">View Details</button> -->
+
+      <div class="app-details">
+        <div class="detail-section">
+          <h4 class="detail-golden">📱 App Modules</h4>
+          <ul>
+            <li><strong>👨‍🌾 Farmer Module</strong> - Contract creation, crop listing, payment tracking</li>
+            <li><strong>🏢 Buyer Module</strong> - Contract requests, order management, bulk purchasing</li>
+            <li><strong>📝 Contract Module</strong> - Pre-negotiated agreements before harvest</li>
+            <li><strong>💳 Payment Module</strong> - Secure & timely payment processing</li>
+            <li><strong>📊 Analytics Module</strong> - Market trends, demand forecasts, profit maximization</li>
+          </ul>
+        </div>
+        
+        <div class="detail-section">
+          <h4 class="detail-golden">⚙️ How It Works</h4>
+          <ol>
+            <li>Farmers list upcoming crops with expected harvest date</li>
+            <li>Buyers view listings and send contract proposals</li>
+            <li>Both parties negotiate terms and sign digitally</li>
+            <li>Crops delivered as per contract terms</li>
+            <li>Secure payment released automatically</li>
+          </ol>
+        </div>
+
+        <div class="detail-section">
+          <h4 class="detail-golden">🛠️ Tech Stack</h4>
+          <p>Kotlin • Jetpack Compose • Firebase Auth • Firestore • Realtime DB • Cloud Functions • JUnit • Espresso</p>
+        </div>
+
+        <div class="detail-section">
+          <h4 class="detail-golden">⭐ Key Features</h4>
+          <ul>
+            <li>Pre-negotiated contracts before harvest</li>
+            <li>Transparent farmer-buyer communication</li>
+            <li>Secure & timely payment processing</li>
+            <li>Real-time market trend analytics</li>
+            <li>Mobile accessibility for rural areas</li>
+            <li>Future: ML predictive analytics for crop demand</li>
+            <li>Cloud integration for scalable storage</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <!-- ================= CLIMATE EXPERT ================= -->
+    <div class="app-card">
+      <div class="app-header">
+        <img src="/assets/apps/icons/ClimateExpert.png" class="app-icon">
+        <div>
+          <h3 class="app-golden-title">Climate Expert</h3>
+          <p class="app-silver-subtitle">AI Financial Predictor</p>
+        </div>
+        <a href="/assets/apk/ClimateXpert.apk" download class="download-btn">Download APK</a>
+      </div>
+
+      <div class="app-screenshots">
+        <img src="/assets/apps/screens/ClimateExpert (1).jpg">
+        <img src="/assets/apps/screens/ClimateExpert (1).png">
+        <img src="/assets/apps/screens/ClimateExpert (12).jpg">
+        <img src="/assets/apps/screens/ClimateExpert (3).jpg">
+        <img src="/assets/apps/screens/ClimateExpert (4).jpg">
+        <img src="/assets/apps/screens/ClimateExpert (5).jpg">
+        <img src="/assets/apps/screens/ClimateExpert (6).jpg">
+        <img src="/assets/apps/screens/ClimateExpert (7).jpg">
+        <img src="/assets/apps/screens/ClimateExpert (8).jpg">
+        <img src="/assets/apps/screens/ClimateExpert (9).jpg">
+        <img src="/assets/apps/screens/ClimateExpert (10).jpg">
+        <img src="/assets/apps/screens/ClimateExpert (11).jpg">
+        <img src="/assets/apps/screens/ClimateExpert (12).jpg">
+        <img src="/assets/apps/screens/ClimateExpert (13).jpg">
+        <img src="/assets/apps/screens/ClimateExpert (14).jpg">
+        <img src="/assets/apps/screens/ClimateExpert (15).jpg">
+        <img src="/assets/apps/screens/ClimateExpert (16).jpg">
+      </div>
+
+      <p class="app-desc">
+        <span class="highlight">जलवायु विशेषज्ञ</span> - AI-powered mobile app predicting financial risks due to climate change using TensorFlow Lite.
+      </p>
+<button type="button" class="toggle-btn">View Details</button>
+
+      <!-- <button class="toggle-btn">View Details</button> -->
+
+      <div class="app-details">
+        <div class="detail-section">
+          <h4 class="detail-golden">📱 App Modules</h4>
+          <ul>
+            <li><strong>📊 Risk Prediction Module</strong> - Revenue loss & operational disruption forecasts</li>
+            <li><strong>💰 Cost Estimation Module</strong> - Adaptation costs (infrastructure upgrades)</li>
+            <li><strong>🏦 Insurance Module</strong> - Claim predictions based on historical data</li>
+            <li><strong>📢 Strategy Module</strong> - Actionable risk mitigation strategies</li>
+            <li><strong>🤖 ML Inference Module</strong> - TensorFlow Lite on-device predictions</li>
+          </ul>
+        </div>
+        
+        <div class="detail-section">
+          <h4 class="detail-golden">⚙️ How It Works</h4>
+          <ol>
+            <li>User inputs location and business type</li>
+            <li>App fetches climate data from NOAA/IPCC sources</li>
+            <li>TensorFlow Lite model processes data on-device</li>
+            <li>Predictions generated: revenue impact, adaptation costs, insurance risks</li>
+            <li>Personalized mitigation strategies displayed</li>
+          </ol>
+        </div>
+
+        <div class="detail-section">
+          <h4 class="detail-golden">🛠️ Tech Stack</h4>
+          <p>Kotlin (Android) • Python (ML backend) • TensorFlow Lite • Jetpack Compose • Firebase • NumPy • Pandas • Scikit-learn</p>
+        </div>
+
+        <div class="detail-section">
+          <h4 class="detail-golden">⭐ Key Features</h4>
+          <ul>
+            <li>Real-time climate risk forecasting</li>
+            <li>Financial impact analysis & cost estimation</li>
+            <li>Insurance risk prediction & claim assessment</li>
+            <li>Personalized mitigation strategies</li>
+            <li>Runs efficiently on mobile (TensorFlow Lite)</li>
+            <li>Data sources: NOAA, IPCC, financial reports</li>
+            <li>Scalable across industries</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+  </section>
+
+</article>
+
+   </div>
+
   </main>
-
-
-
-
-
 
   <!--
     - custom js link
   -->
+    
   <script src="/assets/js/script.js"></script>
-
+<!-- <script type="module" src="/assets/js/script.js"></script>
+<script type="module" src="/assets/js/contact-form.js"></script>
+<script type="module" src="/assets/js/portfolio.js"></script> -->
   <!--
     - ionicon link
   -->
   <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
   <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 
+
+
+  <script>
+  document.addEventListener('click', function(e) {
+    if (e.target.classList.contains('toggle-btn')) {
+      e.preventDefault();
+      e.stopPropagation();
+      
+      const card = e.target.closest('.app-card');
+      const details = card.querySelector('.app-details');
+      
+      const isOpen = details.classList.contains('show');
+      
+      // Close all
+      document.querySelectorAll('.app-details').forEach(d => d.classList.remove('show'));
+      document.querySelectorAll('.toggle-btn').forEach(b => b.textContent = 'View Details');
+      
+      // Open clicked one if it was closed
+      if (!isOpen) {
+        details.classList.add('show');
+        e.target.textContent = 'Hide Details';
+      }
+    }
+  });
+</script>
 </body>
 
 </html>

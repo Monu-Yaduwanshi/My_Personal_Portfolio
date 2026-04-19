@@ -1,3 +1,12 @@
+// Check if already initialized
+if (!window.skillsInitialized) {
+  window.skillsInitialized = true;
+  
+  document.addEventListener('DOMContentLoaded', function() {
+    // ... your existing skills animation code ...
+  });
+}
+
 document.addEventListener('DOMContentLoaded', function() {
     // Animate skill bars
     const animateSkillBars = () => {

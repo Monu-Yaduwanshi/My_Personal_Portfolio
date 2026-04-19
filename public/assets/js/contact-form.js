@@ -121,7 +121,14 @@
 // `;
 // document.head.appendChild(style);
 
-
+// Check if already initialized
+if (!window.contactFormInitialized) {
+  window.contactFormInitialized = true;
+  
+  document.addEventListener('DOMContentLoaded', () => {
+    // ... your existing contact form code ...
+  });
+}
 
 
 
